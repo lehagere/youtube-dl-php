@@ -104,7 +104,7 @@ class YoutubeDl
         $arguments = [
             '--ignore-config',
             '--ignore-errors',
-            '--write-info-json',
+            // '--write-info-json',
             ...ArgvBuilder::build($options),
         ];
 
